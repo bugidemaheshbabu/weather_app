@@ -2,7 +2,8 @@ from django.test import TestCase
 from weather.models import City
 
 # Create your tests here.
-print("running tests")
+print("Running tests")
+
 class CityTestCase(TestCase):
     def setUp(self):
         City.objects.create(name="Kolkata")
